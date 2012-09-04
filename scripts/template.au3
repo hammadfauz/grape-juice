@@ -6,25 +6,17 @@
 ;Then Something Else
 ;Close App
 ;===============================================
-#include
-#include
-#include
-#include
-#include
-#include
-<file.au3>
-<Date.au3>
-<..\DPI_UDF.au3>
-<Math.au3>
-<array.au3>
-<AC_AppClass_UDF.au3> ; sometimes you might need to define fucntions in a seperate UDF for re-use by other scri
+#include <file.au3>
+#include <Date.au3>
+#include <..\DPI_UDF.au3>
+#include <Math.au3>
+#include <array.au3>
+#include <AC_AppClass_UDF.au3>; sometimes you might need to define fucntions in a seperate UDF for re-use by other scri
 ;Command Line Parameters
 ;=======================
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Note: Do NOT specify n as option switch, ;;
-;;
-it is used for testcase name
-;;
+;;       it is used for testcase name       ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;Default Values
 Global $opt_a = "some default value" ;this will contain the value after -a switch on command line
